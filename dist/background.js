@@ -1,0 +1,1 @@
+(()=>{"use strict";chrome.runtime.onInstalled.addListener((()=>{chrome.storage.sync.set({color:"#87CEEB"}),console.log("Default background color set to %cgreen","color: #87CEEB")}))})();
