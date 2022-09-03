@@ -1,0 +1,1 @@
+(()=>{"use strict";let o=document.querySelector("#colorChange");chrome.storage.sync.get("color",(({color:r})=>{if(null==o)throw new Error("No button found");o.style.backgroundColor=r}))})();
